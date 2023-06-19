@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
 </head>
+<script fetchpriority="high" type="module" src="script.js"></script>
 <body>
 	<div id="trailer"></div>
 	<div id="trailer2"></div>
@@ -445,17 +446,8 @@
 	
 </body>
 <script type="text/javascript" src="vanilla-tilt.js"></script>
+
 <script type="text/javascript">
-
-	function send() {
-		const sender = document.getElementById('email-address').value;
-		const email = document.getElementById('email-content').value;
-		if (sender.length > 5) {
-			console.log(sender, email)
-			window.open('mailto:' + sender);
-		}
-
-	}
 
 	const trailer = document.getElementById("trailer");
 	const trailer2 = document.getElementById("trailer2");
